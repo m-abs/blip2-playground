@@ -6,12 +6,12 @@ import html5lib
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
-processor = AutoProcessor.from_pretrained("Salesforce/blip2-opt-2.7b")
+processor = AutoProcessor.from_pretrained("Salesforce/blip2-flan-t5-xl")
 
 # there are several ways to load the model:
 model = Blip2ForConditionalGeneration.from_pretrained(
-    "Salesforce/blip2-opt-2.7b")
-prompt = ""
+    "Salesforce/blip2-flan-t5-xl")
+prompt = "a cartoon with"
 
 input_file = 'Gravrøverne/39619_div-12.htm'
 
