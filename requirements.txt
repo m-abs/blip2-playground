@@ -21,7 +21,7 @@ six==1.16.0
 sqlparse==0.5.0
 sympy==1.11.1
 tokenizers==0.13.3
-torch==2.0.0
+torch==2.2.0
 tqdm==4.66.3
 transformers @ git+https://github.com/huggingface/transformers.git@fe1f5a639d93c9272856c670cff3b0e1a10d5b2b
 typing_extensions==4.5.0
